@@ -1,36 +1,36 @@
-# Agents: release de Windows y data
+# Agents: Windows release and data
 
-Este fork no contiene el cliente de WoW. El release de Windows es solo el ejecutable.
+This fork does not contain the WoW client. The Windows release is the executable only.
 
-## Release de Windows
+## Windows release
 
 - Fork: https://github.com/linkjf/azeroth-survivors-re
 - Release: https://github.com/linkjf/azeroth-survivors-re/releases/tag/v0.2.0
 - Asset: `warcraft-survivors.exe`
 
-Descarga ese asset. No está en el árbol de `main`. El tag `v0.2.0` salió de la rama `windows-port`.
+Download that asset. It is not in the `main` tree. Tag `v0.2.0` was cut from branch `windows-port`.
 
 ## Data
 
-La data no está en el release ni en git. Hay que bajarla con las instrucciones del repo original. Este checkout ya las trae, porque `main` parte de ese repo:
+The data is not in the release and it is not in git. Download it with the original repository's instructions. This checkout already has them, because `main` comes from that repository:
 
-- Repo original: https://github.com/OutThisLife/azeroth-survivors-re
-- README, sección "The game data (not in this repo)"
-- `scripts/fetch-data.sh`, que es el paso de data de `make build` y de `make native`
+- Original repo: https://github.com/OutThisLife/azeroth-survivors-re
+- README, section "The game data (not in this repo)"
+- `scripts/fetch-data.sh`, the data step used by `make build` and `make native`
 
-En Windows ese script se corre desde Git Bash. El README original lo dice: PowerShell y cmd no pueden correr el Makefile.
+On Windows, run that script from Git Bash. The original README says PowerShell and cmd cannot run the Makefile.
 
-El script deja los MPQ en `wow-data/Data`. Esa carpeta está en `.gitignore`.
+The script leaves the MPQs in `wow-data/Data`. That folder is in `.gitignore`.
 
-## Arranque
+## Launch
 
-Con el exe del release y la carpeta que produjo el script:
+With the release exe and the folder the script produced:
 
 ```text
 set WOW_DATA=wow-data\Data
 warcraft-survivors.exe
 ```
 
-`WOW_DATA` apunta a la carpeta `Data`, la que contiene los `.MPQ`, en disco local. El exe no se conecta a un servidor ni a `wenilla-host`.
+`WOW_DATA` points at the `Data` folder, the one that contains the `.MPQ` files, on a local disk. The exe does not connect to a server or to `wenilla-host`.
 
-No subas `wow-data/`, los MPQ ni el zip del cliente.
+Do not upload `wow-data/`, the MPQs, or the client zip.
