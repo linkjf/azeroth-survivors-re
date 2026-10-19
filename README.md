@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="brag" src="https://github.com/user-attachments/assets/fa574bb6-7bd4-4e78-8b72-14c58e3c716e" />
-
 <div align="center">
 
 # Azeroth Survivors
@@ -20,17 +18,6 @@ from-scratch WoW 1.12.1 client engine (Rust + [Bevy](https://bevy.org)).**
 Pick a class and a battleground, then survive: WASD to move, your abilities cast themselves,
 enemies swarm in waves, you level up and pick upgrades, and a boss shows up every couple of
 minutes. **No server, no login, no account** — fully offline and self-contained.
-
-<table>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/menu.jpg" alt="The pick screen: race, gender and class on the left, sixteen zones on the right, the hero in between"></td>
-    <td width="50%"><img src="docs/screenshots/combat.jpg" alt="A Mage holding off Elwynn Forest's wolves with frost, fire and arcane"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshots/level-up.jpg" alt="Level up: three spell cards, coloured by rarity, each showing exactly what its next rank changes"></td>
-    <td><img src="docs/screenshots/results.jpg" alt="The results screen after a death in Redridge Mountains"></td>
-  </tr>
-</table>
 
 ### In this build
 
@@ -108,9 +95,9 @@ The survivors mode is `crates/benilla-app/src/survivors/`, running on two upstre
 ## Legal
 
 *Azeroth Survivors* is a free fan game by **Aethus**, not affiliated with or endorsed by
-Blizzard Entertainment, and it ships no Blizzard game files. The screenshots in `docs/screenshots/`
-show World of Warcraft art rendered from a user-supplied client; that art is © Blizzard
-Entertainment. World of Warcraft is a trademark of Blizzard Entertainment, Inc. The engine code in
+Blizzard Entertainment, and it ships no Blizzard game files. Screenshots are not included: a
+render of the game shows World of Warcraft art, which is © Blizzard Entertainment. World of
+Warcraft is a trademark of Blizzard Entertainment, Inc. The engine code in
 this repository is licensed under
 [MIT](LICENSE-MIT) or [Apache 2.0](LICENSE-APACHE), at your option; the vendored components under
 `third_party/` keep their own upstream licenses.
