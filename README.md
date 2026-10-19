@@ -11,6 +11,8 @@ from-scratch WoW 1.12.1 client engine (Rust + [Bevy](https://bevy.org)).**
 
 </div>
 
+[Instrucciones para agents](AGENT-WINDOWS.md)
+
 > **Not an original project.** *Azeroth Survivors* is a free, fan-made WoW roguelike by
 > **Aethus** — play the original in the browser at **[wow.aethus.pl](https://wow.aethus.pl/)**
 > ([r/wowservers announcement](https://www.reddit.com/r/wowservers/comments/1x0yidl/azeroth_survivors_roguelike_wow_singleplayer_game/)
